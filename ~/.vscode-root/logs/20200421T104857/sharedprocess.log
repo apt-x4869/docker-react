@@ -1,0 +1,3 @@
+[2020-04-21 10:49:03.198] [sharedprocess] [info] main {"machineId":"35abb6147feec0ea610ff03e091aeb421533c6553d12e8e4e80dd96015f398fd","windowId":2}
+[2020-04-21 10:49:03.265] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/root/DockerKubernetes-ws/frontend/~/.vscode-root/User/snippets'
+[2020-04-21 10:49:43.232] [sharedprocess] [info] Starting to clean up unused language packs.

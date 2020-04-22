@@ -1,0 +1,182 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /root/DockerKubernetes-ws/frontend
+> git status -z -u
+> git show :docker-compose.yml
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/docker-compose.yml
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :Dockerfile.dev
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/Dockerfile.dev
+> git show :docker-compose.yml
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/App.css
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/src/App.css
+> git cat-file -s 74b5e053450a48a6bdb4d71aad648e7af821975c
+> git show :src/App.js
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/src/App.js
+> git cat-file -s ce9cbd2946d6962cfc19d65c8cb91757d8f4d4c6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :docker-compose.yml
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/docker-compose.yml
+> git show :Dockerfile.dev
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/Dockerfile.dev
+> git show :docker-compose.yml
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/docker-compose.yml
+> git show :Dockerfile.dev
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/Dockerfile.dev
+> git show :docker-compose.yml
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/docker-compose.yml
+> git show :src/App.js
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/src/App.js
+> git cat-file -s ce9cbd2946d6962cfc19d65c8cb91757d8f4d4c6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/App.test.js
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/src/App.test.js
+> git cat-file -s 4db7ebc25c2d066cd254805af5dda1ed1d2bc819
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :docker-compose.yml
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/docker-compose.yml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/App.test.js
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/src/App.test.js
+> git cat-file -s 4db7ebc25c2d066cd254805af5dda1ed1d2bc819
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/DockerKubernetes-ws/frontend/src/App.test.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/DockerKubernetes-ws/frontend/docker-compose.yml
+> git show :docker-compose.yml
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/docker-compose.yml
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/DockerKubernetes-ws/frontend/src/App.test.js
+> git show :src/App.test.js
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/src/App.test.js
+> git cat-file -s 4db7ebc25c2d066cd254805af5dda1ed1d2bc819
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/DockerKubernetes-ws/frontend/src/Dockerfile
+> git show :src/Dockerfile
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/src/Dockerfile
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/DockerKubernetes-ws/frontend/Dockerfile.dev
+> git show :Dockerfile.dev
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/Dockerfile.dev
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/DockerKubernetes-ws/frontend/src/Dockerfile
+> git show :src/Dockerfile
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/src/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/DockerKubernetes-ws/frontend/Dockerfile
+> git show :Dockerfile
+> git ls-files --stage -- /root/DockerKubernetes-ws/frontend/Dockerfile
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
